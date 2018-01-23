@@ -1,18 +1,18 @@
 
-# color-utils
+# log-color-utils
 
-[![NPM version](https://img.shields.io/npm/v/color-utils.svg?style=flat)](https://npmjs.com/package/color-utils) [![NPM downloads](https://img.shields.io/npm/dm/color-utils.svg?style=flat)](https://npmjs.com/package/color-utils) [![CircleCI](https://circleci.com/gh/zcong1993/color-utils/tree/master.svg?style=shield)](https://circleci.com/gh/zcong1993/color-utils/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/zcong1993/donate)
+[![NPM version](https://img.shields.io/npm/v/log-color-utils.svg?style=flat)](https://npmjs.com/package/log-color-utils) [![NPM downloads](https://img.shields.io/npm/dm/log-color-utils.svg?style=flat)](https://npmjs.com/package/log-color-utils) [![CircleCI](https://circleci.com/gh/zcong1993/log-color-utils/tree/master.svg?style=shield)](https://circleci.com/gh/zcong1993/log-color-utils/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/zcong1993/donate)
 
 ## Install
 
 ```bash
-$ yarn add color-utils
+$ yarn add log-color-utils
 ```
 
 ## Usage
 
 ```js
-const colorUtils = require('color-utils')
+const colorUtils = require('log-color-utils')
 const log = console.log
 
 log(colorUtils.success('a', 'b', 'c'))
@@ -35,7 +35,7 @@ colorUtils.logPad(colorUtils.success, 'a', 'b', 'c')
 
 ## Author
 
-**color-utils** © [zcong1993](https://github.com/zcong1993), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by zcong1993 with help from contributors ([list](https://github.com/zcong1993/color-utils/contributors)).
+**log-color-utils** © [zcong1993](https://github.com/zcong1993), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by zcong1993 with help from contributors ([list](https://github.com/zcong1993/log-color-utils/contributors)).
 
 > [github.com/zcong1993](https://github.com/zcong1993) · GitHub [@zcong1993](https://github.com/zcong1993)
